@@ -9,6 +9,10 @@ app.get("/mnevfel", (req, res) => {
     res.status(200).json({ mnevfel: "Here is mine !" })
 })
 
+app.get("/ocanboga", (req, res) => {
+    res.status(200).json({ ocanboga: "Hello world!" })
+}
+        
 app.get("/lalelif", (req, res) => {
     res.status(200).json({ mnevfel: "Here is lale's !" })
 })
