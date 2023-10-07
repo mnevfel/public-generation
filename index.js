@@ -11,7 +11,11 @@ app.get("/mnevfel", (req, res) => {
 
 app.get("/ocanboga", (req, res) => {
     res.status(200).json({ ocanboga: "Hello world!" })
-}
+})
+
+app.get("/alper.tunga", (req, res) => {
+    res.status(200).json({ tungaalper: "Great!" })
+})
         
 app.get("/lalelif", (req, res) => {
     res.status(200).json({ mnevfel: "Here is lale's !" })
